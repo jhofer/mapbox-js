@@ -18,11 +18,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 import React, { PureComponent } from "react";
-import PropTypes from "prop-types";
+
 import { extent } from "d3-array";
 import { scaleLinear } from "d3-scale";
 import { geoPath, geoTransform } from "d3-geo";
-import Immutable from "immutable";
 
 import { CanvasOverlay, CanvasRedrawOptions } from "react-map-gl";
 
